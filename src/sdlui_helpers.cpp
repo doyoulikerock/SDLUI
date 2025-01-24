@@ -375,7 +375,7 @@ void SDLUI_WindowHandler()
 		}
 	}
 
-	if(SDLUI_MouseButton(SDL_BUTTON_LEFT) == SDLUI_MOUSEBUTTON_PRESSED && SDL_GetCursor() == SDLUI_Core.cursor_arrow)
+	if(SDLUI_MouseButton(SDL_BUTTON_LEFT) == SDLUI_MOUSEBUTTON_PRESSED) // && SDL_GetCursor() == SDLUI_Core.cursor_arrow)
 	{
 		SDLUI_Control_Window *wnd;
 		SDL_Rect r;
